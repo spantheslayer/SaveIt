@@ -5,9 +5,7 @@ import { AppLoading } from "expo";
 
 const fetchFont = () => {
   return Font.loadAsync({
-    josfinLight: require("../assets/fonts/JosefinSans-Light.ttf"),
-    josfinRegular: require("../assets/fonts/JosefinSans-Regular.ttf"),
-    josfinSemiBold: require("../assets/fonts/JosefinSans-SemiBold.ttf"),
+    flashback: require("../assets/fonts/FlashbackDemo.ttf"),
   });
 };
 
@@ -25,8 +23,7 @@ export default function AppText({ children }) {
 }
 const styles = StyleSheet.create({
   text: {
-    fontFamily: "josfinRegular",
-    fontSize: 19,
-    paddingVertical: 10,
+    fontFamily: "flashback",
+    fontSize: 40,
   },
 });

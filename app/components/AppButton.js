@@ -19,11 +19,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     padding: 15,
     width: "100%",
-    marginVertical: 10,
+    marginVertical: 7,
   },
   text: {
     color: Colors.white,
-    fontSize: 18,
+    fontSize: 15,
     textTransform: "uppercase",
   },
 });
