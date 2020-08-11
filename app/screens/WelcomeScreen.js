@@ -24,12 +24,9 @@ export default function WelcomeScreen() {
         <AppText>Save your notes across all your devices </AppText>
       </View>
       <View style={styles.buttonsComponent}>
-        <AppButton title="Continue With Email" />
         <AppButton title="Continue With Facebook" />
         <AppButton title="Continue With Google" />
-      </View>
-      <View style={styles.emailIcon}>
-        <MaterialCommunityIcons name="email" color="white" size={25} />
+        <AppButton title="Continue With Email" />
       </View>
       <View style={styles.fbIcon}>
         <MaterialCommunityIcons name="facebook" color="white" size={25} />
@@ -37,8 +34,11 @@ export default function WelcomeScreen() {
       <View style={styles.googleIcon}>
         <MaterialCommunityIcons name="google" color="white" size={25} />
       </View>
+      <View style={styles.emailIcon}>
+        <MaterialCommunityIcons name="email" color="white" size={25} />
+      </View>
       <TouchableOpacity style={styles.textContainer}>
-        <Text style={styles.text}>First time ? Sign Up :)</Text>
+        <Text style={styles.text}>First time? Sign Up</Text>
       </TouchableOpacity>
     </ImageBackground>
   );
@@ -58,17 +58,17 @@ const styles = StyleSheet.create({
   },
   emailIcon: {
     position: "absolute",
-    bottom: 215,
+    bottom: 85,
     left: 40,
   },
   fbIcon: {
     position: "absolute",
-    bottom: 150,
+    bottom: 215,
     left: 40,
   },
   googleIcon: {
     position: "absolute",
-    bottom: 85,
+    bottom: 150,
     left: 40,
   },
   logoContainer: {
